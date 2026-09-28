@@ -1,0 +1,1521 @@
+Name: UI
+Id: g=26ff0e539d8e6e59e32f301b6c80415a
+Type: UICategoryFolder
+Children:
+- Name: DefaultStyleSheet
+  Id: g=8da2b5865c73184b748c69f73d34bedf
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyles
+    Id: g=f67e8249f3ea1b4146f8ad2ad37324bb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=f9b04021415503dcaff2c49ded9c8a47
+      Type: ButtonStyle
+    - Name: Accent
+      Id: g=73478b5f319cc806ed6892e0d08311d8
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=4935bb430a993e081db9896759fd2bb7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Id: g=4faf0b6d93bf38820b9f04508fdd4676
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Id: g=26e73667c82fc880b31a4eb61b422eed
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: BorderedRectangular
+      Id: g=b89bf6159020c83e342afccb0fa535d0
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=4b3d8c8a2448014d0935ac8a159a695e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=7c84ce61e2a1ad2dd11bc87fe08984c7
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=29782d73c901414aa0bd889893618f83
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=5879a9fb91338f3a10819adcf42da21d
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Id: g=a657f3b8ccc6b9968ab1baaf8efaccf9
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=074a5c8ed871befddf53180d929972b6
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=ced940dd4d6b4d78d5d73d043ae16aee
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=4ca91e5deceb0243e127d09f212fce1d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=f982f6e9b4663fbbb294a7adce06a58e
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=c4bc660ef27cc0a57bf088f5104711a0
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Id: g=c5ce43c8a74cc8969cfc3e008a06ee8b
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=fe80d4cdd82c2a1e5c53d06687079e09
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Id: g=fdebba68ae16404efec3fb0f9d8cd81d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=06c6cf61f08066963a09b56cf8090ac3
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Id: g=0045274028ef204e082800374709bfc9
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=91a227ed55e94350f9bfbf6ba2bbfeea
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Id: g=a84087d339b543dec8743c1a9ba8da03
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=ff8abf1a68f37f286e9839809aa675df
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderColor
+        Id: g=3dfdbb5ca326a53ac6d3a42ad71d0797
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderWidth
+        Id: g=91662976a726a9a6feccbd5966e81e81
+        Type: BaseDataVariableType
+        DataType: Size
+  - Name: InputBoxStyles
+    Id: g=94541d45f99cb7b35058384523bf1b55
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=537c5a8d8a8029513f6403c82a5cf3af
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Id: g=45f33f895f8fb97d2cd4e51aa3006ec6
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=f3bf67d467cba7c18d55930b5a046b37
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Id: g=040ce91fbf60fa4051a8d51a08ab40c8
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=d7ebfd852db0e05c3c600de83a37757b
+      Type: GaugeStyle
+      Children:
+      - Name: ForegroundColor
+        Id: g=a1bf5b7d1a66a9dd2dc04d30f41690d3
+        Type: BaseDataVariableType
+        DataType: Color
+  - Name: NavigationPanelStyles
+    Id: g=2335e5f95e1a374de9948d53076cbb84
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=9738ffb6561a644a01a306c3b1797580
+      Type: NavigationPanelStyle
+  - Name: ChartStyles
+    Id: g=2df2f5b8372253294a673b5a3b50951b
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=07ed5003680cfb43bf6ededdd5ab9ac5
+      Type: ChartStyle
+  - Name: DataListStyles
+    Id: g=c6cdf1803ba8b37e79314ff7aa5576a5
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=18a26c94404cd376025a7e83b0c6d410
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Id: g=6da1d71efd4381c69785f016b8da6f7b
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=687dbfcb52b2ec966128571b3062440d
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Id: g=a8da12f04442c98865282a6755e10b62
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=96d3abba190385bd47ff81cb41dcbd96
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Id: g=1e208ec8f21cbdee2f11543e32211704
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=acfa14fd92c219c0b3cf5a73174cbe4b
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Id: g=adc7b1fee3fa9e9d818a8ccefdaa4acb
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=2947735bb831eaf6f11dbfa7e097e184
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Id: g=aa0cba49ffcd577dc8f82d4ac9c69930
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=55383639fc3da4816e2d5ac7ae8ff479
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Id: g=11a3daca1ed01ed58eb07b7798fd85b6
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=18b9295536caa35d7ceafaa4e8916a39
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Id: g=58bf1b1376bb5276a05d26d02824601b
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=cd0e8d3e8d1d9bf52fe540156dedb2a1
+      Type: RadioButtonStyle
+  - Name: CheckBoxStyles
+    Id: g=3806bfc0200fa0f52874fdb53f4ec389
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=902334d122771a9860132bd98303e16d
+      Type: CheckBoxStyle
+  - Name: RectangleStyles
+    Id: g=be35b6ad9b62cd9b14b0ff52a2ea43d4
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=1bf6d884671591b9a03493a8c8821146
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=cfb3b4ca5e2b6ee847f4e0db60dd8457
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=7aa7d97e41dc12c3147e9de4bd06687b
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=d401ae47bbc882023eace9465aba22b0
+      Type: ScreenStyle
+- Name: MainWindow
+  Id: g=01a7e8933afd7c95fe894b0859308138
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=fb0107b96a98ab9a4647eb708ce54918
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Id: g=2875f826ef87eaaf231ccd17a04b211b
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: Caption
+    Id: g=da848d92afbc7c0b3471987ce66b2ba6
+    Type: BaseDataVariableType
+    DataType: String
+    Children:
+    - Name: DynamicLink
+      Id: g=b540aa4367510d55a692bf30ad911a50
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Presentacion_Energy@BrowseName"
+  - Name: NavigationPanel1
+    Id: g=4c2005dfb91caf0c54272f775bbd8dd8
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Id: g=b57c08d21e8e11398c80945925e410c9
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Id: g=765f472e3772f513ef026b89903307b4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=ee7f33d4906f3d1a965d511169b66634
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Main"}
+        - Name: Panel
+          Id: g=b502d15637864e701511d42d6a747ec4
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Presentacion_Energy/UI/Screens/Dashboard"
+          Children:
+          - Name: Kind
+            Id: g=beb94770ccffc0c0bec2d7d8b64bc07c
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: AliasNode
+          Id: g=bf0f4bbaa7f0812e6ee6043b7e6d9abb
+          Type: BaseDataVariableType
+          DataType: NodeId
+          ModellingRule: Optional
+          ValueRank: ScalarOrOneDimension
+          Value: "/Objects/Presentacion_Energy/Model/Main"
+      - Name: Panel2
+        Id: g=b3f941bc9ea63ec39150ddd7e1824e38
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=49a1a923776fa5a4a49bae1a501086ae
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Config."}
+        - Name: Panel
+          Id: g=514b8b54f5e706a903a9dbe23455a9c2
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Presentacion_Energy/UI/Screens/Config"
+          Children:
+          - Name: Kind
+            Id: g=5e3ac45f144e0783e4ea77585edf43fd
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Id: g=0a8a527c8ce03a3d1aca5ae40af6538d
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Children:
+      - Name: Kind
+        Id: g=9c29cfc6979c362d738b0bec532982ae
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Id: g=7053682932a435e1156fb646bb4a24e3
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Class: Reference
+      Target: ns=7;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=1183
+      Direction: Forward
+    - Name: Width
+      Id: g=20c93c09fb3ed79170045074956b798b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Id: g=e7dad3a12b675a64f7ad4034340d1459
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Id: g=f13d568a5b943c3d814f0634b49de0d7
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=589295cde44e685f1070812c9a886b24
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+  - Name: FullScreen
+    Id: g=fd4ea4a5f8c8150415892e97ccbb9953
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: Estacion
+    Id: g=29debd1c86a38a0251a0dde60212bb14
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=c34d0bccda8451ef49ad55bfa7a48b02
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Main"}
+    - Name: HorizontalAlignment
+      Id: g=04d732c1b8f14946a85b37983c6451cb
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: TextHorizontalAlignment
+      Id: g=f9ae8a78b10ace18333280dad3afe707
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: TextVerticalAlignment
+      Id: g=f17c6005d250ab4621fcb2d08f1faa91
+      Type: BaseVariableType
+      DataType: TextVerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontWeight
+      Id: g=36ccb7f89c747681bbfc90c5748fc88a
+      Type: BaseDataVariableType
+      DataType: FontWeightEnum
+      ModellingRule: Optional
+      Value: 700
+    - Name: FontSize
+      Id: g=1e2c2f06904f23e2887b181c0f124bc9
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Id: g=c132c22e060624f2bb266adc79878146
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: RightMargin
+      Id: g=ae24787b6e419749e98f47c2f8a26af1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Id: g=5265cf8715d6cc92a7bbd2d58d097a35
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 37.0
+    - Name: TextColor
+      Id: g=e0931d3576b43167fa415c4ba52400d5
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+- File: Screens/Screens.yaml
+- File: Keyboards/Keyboards.yaml
+- Name: WebPresentationEngine
+  Id: g=5b3cea6d03c52d55691c8140d0f96bb1
+  Type: ns=13;PresentationEngine
+  Children:
+  - Name: Protocol
+    Id: g=0d589fe259423a4414459cd675cd79f8
+    Type: BaseDataVariableType
+    DataType: Protocol
+  - Name: IPAddress
+    Id: g=b701d9ed2a0d72539b73c6dc68167b58
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "192.168.1.160"
+  - Name: Port
+    Id: g=62d597fa047083bb99d0c81ad92a6367
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4060
+  - Name: StartWindow
+    Id: g=037be4db1ccdd4e3c2abf6f54b2252d6
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Presentacion_Energy/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Id: g=816feb45b52ce1e0aa29173bc3792c27
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Id: g=ed0e877729da55ffcf5809ae259500fb
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Presentacion_Energy/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Id: g=7d943e5411a919a27ae689c2733a231a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Id: g=bc3b867da7c613294c13d7f43c19fe30
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Id: g=f8102316642ec7f8a6d82f6536ec53f2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Id: g=6076dbb179d261b0667256c8667d0be1
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Id: g=3051ec66c4aa8cd4292bb80c543f3425
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Id: g=9a6fe260b443c5d68d4e38f63687e36f
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Id: g=0296fc3afb4da48607d4a7c025914ece
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IsWeb
+        Id: g=e79d4f209e84d7cbd1d1ecceaadb548d
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IpAddress
+        Id: g=7f90c52b973c20c88c8631999279081a
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: StyleSheet
+        Id: g=a92cea05372058a8302dad4835a9291d
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=7905b46f6001850ce5035ca19ea3a995
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Name: User
+        Id: g=5677f637246555b3433c3d0c047a71cc
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=a10d9a4e3c980717e5a0365022d12287
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+      - Name: ActualLocaleId
+        Id: g=cc4a92af561cd1003547310be5bb3e4d
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualLanguage
+        Id: g=a23cdba2aabecd9549b35d3fbd6def2e
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualMeasurementSystem
+        Id: g=1aa9179093f98eb9cb8f33b047dd87e3
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+      - Name: TimeZoneOffset
+        Id: g=8ffc73f32d795238d1ba05e63148a56e
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+      - Name: Groups
+        Id: g=6a41024baced2088a272aaa82372ec01
+        Type: BaseObjectType
+      - Name: Roles
+        Id: g=372c259d2ed63a64dc6e9a3dfc037ec0
+        Type: BaseObjectType
+      - Name: Rights
+        Id: g=ccceb61e98d735d28b98cf54d978bbbe
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Id: g=b04a32c4d839ccf47e22dc1b20d4f226
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Id: g=d4493e4c0e92fd8f2ab0949af5c69102
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: ScaleFactor
+        Id: g=9622d8aae897205020f6b72d752a4f92
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
+  - Name: VirtualKeyboard
+    Id: g=e9a413576a03bab7bfdc54598340ffe0
+    Type: BaseDataVariableType
+    DataType: VirtualKeyboardEngineTypeEnum
+  - Name: MaxNumberOfConnections
+    Id: g=dd5b6ddca886a4a82a0d60be98432b2f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 5
+  - Name: AllowedLocalSources
+    Id: g=4cf67c841b825e55971c5783e693713b
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["*"]
+- Name: Estacion_1
+  Id: g=458921f6af4091808f5dea785a47d7c8
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=1c525ca49d5bbe4888997882b9064249
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Id: g=96fa70dd327638aaf7ffbbb31d0c4e3b
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: FullScreen
+    Id: g=58f00741a6be22a9424432dfcd862766
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: ScaleLayout
+    Id: g=50bfabed417f62ff5602cadf2e72526b
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Id: g=af00fd20aba66feda1579daf3ef20cc2
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1920.0
+    - Name: OriginalHeight
+      Id: g=d086abc0491b522a208015556518ae4d
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1080.0
+    - Name: PanelLoader
+      Id: g=ce4399705274ad7617d11ae487d6b96f
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Id: g=d2d313a555d149b796cff5393134d66e
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Presentacion_Energy/UI/Screens/Dashboard"
+        Children:
+        - Name: Kind
+          Id: g=70903ee377ec7e57504bc2fc11594727
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Id: g=00fa26eb4269691be1ad1cfc7e3a7bae
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=55ee3a8ef2c4760186abef7cb2acf45f
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=7;i=478
+        Direction: Forward
+      - Name: Width
+        Id: g=5a242336ea282f7a6bec2e0e74014fcd
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=79ec8447f635ca59dade5aea9baf9608
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=0d2ff022d36b1a50eced4b356f972d42
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=4bb2642a4650a9dac518eada839e89e8
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: PanelAliasNode
+        Id: g=84e52222ffc2005213f9d061b51e4203
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ValueRank: ScalarOrOneDimension
+        Value: "/Objects/Presentacion_Energy/Model/Estacion_1"
+    - Name: Estacion
+      Id: g=b5309fdd94fb320169977ac5eaac6e2e
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=029bca4d0bc134cc3e6edc7f9c6bb7a2
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Estación 1"}
+      - Name: HorizontalAlignment
+        Id: g=58c320d468de9d2c4866072979523304
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextHorizontalAlignment
+        Id: g=f41f502840732cb3e2ebf48a22fbc1bb
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=acf5d2beec35250178279e10de290287
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: FontWeight
+        Id: g=ca06a0804009cfedb484b7a5fcabca23
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: FontSize
+        Id: g=29a907a749c3257677155348dd715a3a
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Id: g=fefbddfbd5d4ce34070a53e0d9e1f30b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -6.0
+      - Name: RightMargin
+        Id: g=51125a03195a273d974f4f04cebf4d4e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=052c073e4bcbd55b24b6c11e555728c5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: TextColor
+        Id: g=01756318349f1d93a5e01ddea384888f
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+    - Name: HorizontalAlignment
+      Id: g=e003321eec66c405fae754f8752195c8
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=71d101897cf17fb8a61270a3cb42d0d0
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=cf2026774904335bcced4350ffe6c803
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontScaling
+      Id: g=526156e8bd3c516405c4666a713b5c7d
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+- Name: Estacion_2
+  Id: g=888dddb0c810e4a610fb78c470248703
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=11f9dbeb7997fd03cdec002a3f4f3d9a
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Id: g=a7eacf59539720ad6e4a51d36ec0529c
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: FullScreen
+    Id: g=56198abc1f58bf5e7961ab949b876393
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: ScaleLayout
+    Id: g=ca68aaba54e34362fc16488e73d71d53
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Id: g=a60d13c1e3ee85e3e90f3ac3c0079827
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1920.0
+    - Name: OriginalHeight
+      Id: g=a821f2edec549b7e1934a949a0965ce7
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1080.0
+    - Name: PanelLoader
+      Id: g=c74c386685772d27570d20c9c9d4fd31
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Id: g=4f5b319bf822852f0b6a7154d99a95e4
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Presentacion_Energy/UI/Screens/Dashboard"
+        Children:
+        - Name: Kind
+          Id: g=562cb3bc8751f26b82296f47a6ab4f0b
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Id: g=8c8b3d856587c3c452f2c5a1de96f10f
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=22f06e2f6c36c67c82b873fbe0a2f360
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=7;i=478
+        Direction: Forward
+      - Name: Width
+        Id: g=cc8581042bc086bde358233a2be826e7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=503bfa7bcf8eabe87508b9d782f2c67c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=f5f74ecd09c7832f3fcb7d1ed25978b7
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=5c7ed746d3272f6b5200cf3aebb18304
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: PanelAliasNode
+        Id: g=b4dbd915fd2993f7355a286f51acbead
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ValueRank: ScalarOrOneDimension
+        Value: "/Objects/Presentacion_Energy/Model/Estacion_2"
+    - Name: Estacion
+      Id: g=c2e70ec7f4d14192756c4190dae76b9e
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=6e48c2af376f7dddd0a9cc03d75242b1
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Estación 2"}
+      - Name: HorizontalAlignment
+        Id: g=8bdefc7923fc877b3c887cc907153e1b
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextHorizontalAlignment
+        Id: g=95c3c1492d70ceead9f5ef14ced3977a
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=2caf93d72ebc0b5e1c4eb4e7113dde6d
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: FontWeight
+        Id: g=577989f80a721c5b7577dbf4afa78d87
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: FontSize
+        Id: g=601de0abe4660fd72db2225fcae211fb
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Id: g=0913e91040690acc8a7544693245c9d2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -6.0
+      - Name: RightMargin
+        Id: g=576740a8492f3a0d055a8bc82010a571
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=7a2d892907ddcd401accff0d15b0f506
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: TextColor
+        Id: g=ceaaf0ceb7787714520d403ef3a3734e
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+    - Name: HorizontalAlignment
+      Id: g=aa2ea3ca7c14ed4605b9468dc5caa08a
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=b143a74a9bbf5787e0e83a67f8d5453f
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=6b0ea0f23a6df634e1756591b6513f15
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontScaling
+      Id: g=213cd438665638b987b4d638d9fbe29c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+- Name: Estacion_3
+  Id: g=70aa797948110be1d9d21f07c58b2e40
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=32a7f2c79120571f18955c33f5718531
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Id: g=12d46004035f43917becb60ef2e116bc
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: FullScreen
+    Id: g=e7711079a9683344f84cee7ae43cf2b0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: ScaleLayout
+    Id: g=1b2e7a56005dc2f449310e0a22c8146d
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Id: g=58d4bb152db1f395967c6d295ce826db
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1920.0
+    - Name: OriginalHeight
+      Id: g=1036f267c73b4ccac24e1e166385cc11
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1080.0
+    - Name: PanelLoader
+      Id: g=3f887582e4ea21744b5f7b7a4ca22bfc
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Id: g=17216e348bef41903e9a3c09815c5055
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Presentacion_Energy/UI/Screens/Dashboard"
+        Children:
+        - Name: Kind
+          Id: g=4330edcad2b4a371378ef79d2d6fa3a1
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Id: g=38cf6808d4bdb5afb55b2359bf750751
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=3eb4c12bf7d8b603f8a0a6eea7a249e5
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=7;i=478
+        Direction: Forward
+      - Name: Width
+        Id: g=fa7a85b39d728ea5f66ec2991022bbc4
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=ddb99c32591b6ca916116210c505123c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=f242805d282a10b0d9a6850b127d363d
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=9acbc13abf3879e971047333c37f8ecb
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: PanelAliasNode
+        Id: g=c283b7627c7aa9cade8cef877ca5eed6
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ValueRank: ScalarOrOneDimension
+        Value: "/Objects/Presentacion_Energy/Model/Estacion_3"
+    - Name: Estacion
+      Id: g=24e82ca3c7d1ddecceb0aeff486f9710
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=fa0481ab401f209ea2e14a51383cab37
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Estación 3"}
+      - Name: HorizontalAlignment
+        Id: g=aba8a1920d943fd5383f798f76833d74
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextHorizontalAlignment
+        Id: g=e8eaa5545f2854770bfaf183ac0d9b32
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=c16917d1e408f48ec1e0739f023ee6b0
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: FontWeight
+        Id: g=d8c1c644fced56b2f552b1f1c66ab062
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: FontSize
+        Id: g=f28115c270cf1dae3f92cae712e73b89
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Id: g=1fa7f21bfd97a9a875602cd5ea201d7f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -6.0
+      - Name: RightMargin
+        Id: g=3ed5c106771f477b12136c10edbf95ef
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=529d6ea1bb38670d58e436d95a2a7aaf
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: TextColor
+        Id: g=1e3788a74effade497a5251a8a75e436
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+    - Name: HorizontalAlignment
+      Id: g=922212972522d8ce9e2a36182ce455ea
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=825a19f47555fcedbcc52208d363c075
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=2164b8b2c1f1a24b1c7dca56cf1a1cb1
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontScaling
+      Id: g=41865448579b7e7318f795ca327e261c
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+- Name: Estacion_4
+  Id: g=e804b15e84faca5106f0884e9336fda1
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=1df366662a1fd05e7ea7e993215caa16
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1920.0
+  - Name: Height
+    Id: g=778fe852bfdd39e1e06b7b0c7ba5cecc
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1080.0
+  - Name: FullScreen
+    Id: g=7023f042cad418b35369013cde9970d3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: ScaleLayout
+    Id: g=d3d5486a9b1731e97ed2a61193790f6b
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Id: g=a10188b163748668213cd7008c61a6e5
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1920.0
+    - Name: OriginalHeight
+      Id: g=9c30a2fa777377f742c1ee068f26e6b7
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1080.0
+    - Name: PanelLoader
+      Id: g=ebfc31d4950e0522470265579bea7146
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Id: g=c6cd7e5b256a6b066ae221beca278a6f
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/Presentacion_Energy/UI/Screens/Dashboard"
+        Children:
+        - Name: Kind
+          Id: g=f51c9697faaf837aa0b4ab2b32c0acf5
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Id: g=93e8638a08f96bf53d864bb3f861f8f1
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=dcd52854ff0d658ab2ce55e6638c457f
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=7;i=478
+        Direction: Forward
+      - Name: Width
+        Id: g=5da25a57fc37c76c256e1d8a9994fe42
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=df2876c491240ee22696195682f5af14
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=8d3cfdfc69e24af555208fdd3e157ea7
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=bdc4c7367a493bae947048f40da291c1
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: PanelAliasNode
+        Id: g=93502b369bd4900abfc978516e1971f8
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ValueRank: ScalarOrOneDimension
+        Value: "/Objects/Presentacion_Energy/Model/Estacion_4"
+    - Name: Estacion
+      Id: g=90ff5cd07d7e180f1d6cd8115425fa6a
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=38af451091f0c56d9b851fdd3c492af7
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Estación 4"}
+      - Name: HorizontalAlignment
+        Id: g=e9fce933ce1f0c82436f97c4caece909
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextHorizontalAlignment
+        Id: g=9db74dc70fffb2fcf737870dacff815c
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=88bfb2e47d201c117a2169f0e59b723e
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: FontWeight
+        Id: g=7ecb608e72d31a0b7e42435a83764352
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: FontSize
+        Id: g=0ec620b05b9be06ba00e3adab25ad558
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: LeftMargin
+        Id: g=0f317cf303f5b574d9f2c3391fe621a9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -6.0
+      - Name: RightMargin
+        Id: g=05972e1c76c49b6d9edfc266715384e9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=502ebbf75d75829f40552070f8fb4bf6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: TextColor
+        Id: g=812c3b22fc4acd238a626ab80d1b0e32
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff"
+    - Name: HorizontalAlignment
+      Id: g=38f72bcd483b62f1d5724acadda234e5
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=349fe20af650ab5c43c14dcc11f2e28a
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=a5925115bf1f7b094bf390e6228389ed
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontScaling
+      Id: g=d4b1696ef43ce82c5010980c188584a9
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+- File: Elementos/Elementos.yaml
+- Name: NativePresentationEngine
+  Id: g=c89e47e23e3790995e01fe66e552c227
+  Type: NativePresentationEngine
+  Children:
+  - Name: StartWindow
+    Id: g=fca35c8f0148e7d25482131d297dd1d2
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Presentacion_Energy/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Id: g=06512c75836374f92065be1ef8fdfa3b
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Id: g=0efd540bdc31c31d3034afa94bba7492
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Presentacion_Energy/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Id: g=c904ddf5457693132df8f5cc334d4203
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Id: g=988b9f56ab4a065142820862659250a8
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Id: g=3e5eb5d55a3af0335a468f26e29fd0c6
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Id: g=e38fd8195e6ed8fa4a8b3e77504abbec
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Id: g=ce6581c512ad624cdd0429368539b4d7
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Id: g=438915ebdcdfff0260d0dfcbb99480df
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Id: g=67f02e9e453aa61a02552b281ff552e9
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IsWeb
+        Id: g=627c60ee3ff29e085a10a2c1752589e2
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IpAddress
+        Id: g=1891f6676e4a942eec3aa6c57a4bf10e
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: StyleSheet
+        Id: g=8431c8812120eb041864b71c0e7434fe
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=a2f4947d71a247485fc69883214a841c
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Name: User
+        Id: g=b65df286ef070a3d4525b2c28c21543a
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=30e258c12d7a753ac4bdb39f87250d37
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+      - Name: ActualLocaleId
+        Id: g=fc404305d091862d9a127ddd0c7d2b96
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualLanguage
+        Id: g=8608a72619c0e926ed04ea8c081af59f
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualMeasurementSystem
+        Id: g=5598ce84871a4d44f54d904a1fa6a3c6
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+      - Name: TimeZoneOffset
+        Id: g=be4c765f08ae87bbafe2a0909b2e42b6
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+      - Name: Groups
+        Id: g=16c5955c35b7906f8b11895628a2a01c
+        Type: BaseObjectType
+      - Name: Roles
+        Id: g=e70612e733e6f8afbd0ab905990c15f4
+        Type: BaseObjectType
+      - Name: Rights
+        Id: g=ce557863616b19be18d6a87cf2fde55c
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Id: g=333da69268f2cd2bd3e29beb2aef1d5f
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Id: g=000a821c0d674c8158513be283223ddf
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: ScaleFactor
+        Id: g=ab3c5942cb50df4764755e844c112dc9
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
+  - Name: VirtualKeyboard
+    Id: g=bc7127f6288f95b739df5c4d0ecbbd0c
+    Type: BaseDataVariableType
+    DataType: VirtualKeyboardEngineTypeEnum

@@ -1,0 +1,19 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_2tcvr" x="0px" y="0px" width="151.041px" height="151.033px" viewBox="0 0 151.041 151.033" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <radialGradient id="SVGID_14_" cx="75.5215" cy="75.5215" r="62.4311" gradientUnits="userSpaceOnUse">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.3"/>
+    <stop offset="0.8344" style="stop-color:#000000;stop-opacity:0.5"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.8"/>
+  </radialGradient>
+  <path fill="url(#SVGID_14_)" d="M137.956,75.516c0,34.484-27.95,62.434-62.436,62.434S13.086,110,13.086,75.516&#xD;&#xA;&#x9;&#x9;c0-34.473,27.949-62.421,62.435-62.421S137.956,41.043,137.956,75.516z"/>
+  <linearGradient id="SVGID_15_" gradientUnits="userSpaceOnUse" x1="75.5205" y1="137.917" x2="75.5205" y2="13.1152">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.2"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.15"/>
+  </linearGradient>
+  <path fill="url(#SVGID_15_)" d="M75.521,13.115c-34.462,0-62.403,27.94-62.403,62.401c0,34.47,27.941,62.4,62.403,62.4&#xD;&#xA;&#x9;&#x9;c34.471,0,62.403-27.931,62.403-62.4C137.924,41.056,109.991,13.115,75.521,13.115z M75.521,130.545&#xD;&#xA;&#x9;&#x9;c-30.394,0-55.021-24.637-55.021-55.028s24.627-55.028,55.021-55.028s55.03,24.637,55.03,55.028S105.914,130.545,75.521,130.545z"/>
+  <radialGradient id="SVGID_16_" cx="75.3291" cy="35.7197" r="45.4985" gradientUnits="userSpaceOnUse">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.45"/>
+    <stop offset="0.8587" style="stop-color:#000000;stop-opacity:0.45"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.45"/>
+  </radialGradient>
+  <path fill="url(#SVGID_16_)" d="M135.52,58.465c-3.842-4.93-8.278-9.375-13.201-13.23c-1.926-1.506-3.924-0.77-5.992-2.028&#xD;&#xA;&#x9;&#x9;c-11.838-7.204-25.904-12.509-40.998-12.509c-14.742,0-28.507,5.096-40.17,11.984c-1.986,1.173-3.912,0.342-5.77,1.746&#xD;&#xA;&#x9;&#x9;c-5.342,4.037-10.136,8.761-14.25,14.037c7.417-26.248,31.553-45.49,60.189-45.49S128.102,32.217,135.52,58.465z"/>
+</svg>

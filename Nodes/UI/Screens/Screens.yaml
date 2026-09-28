@@ -1,0 +1,2767 @@
+Name: Screens
+Id: g=3ff7630d4913b90502c5d56f23f39d4f
+Type: ScreensCategoryFolder
+Children:
+- Name: Dashboard
+  Id: g=00458ea660c8f5ae3dfdce0db991dccd
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScaleLayout
+    Id: g=57a7bbf4e69c3d80f89860695d686763
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Id: g=cd6c454eff6583dedff09cc9db826fc1
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1920.0
+    - Name: OriginalHeight
+      Id: g=b5216df1203eb0a71b7ace7e2cf82c3f
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1080.0
+    - Name: HorizontalAlignment
+      Id: g=d99426f86442706554294e5eadabdf2e
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=67a827ae66cee88221738b69efc8cf2c
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=fa21231314c7c53a071ab020ceacc7b6
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontScaling
+      Id: g=f6b0372555273b216e351209cac285eb
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Dashboard
+      Id: g=e69a5c221de81056a8384de728c58304
+      Type: WebBrowser
+      Children:
+      - Name: URL
+        Id: g=7e8ffcb6785ea4f7e3ec89cd6d696f21
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+      - Class: Reference
+        Target: ns=7;i=354
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=356
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=358
+        Direction: Forward
+      - Name: Width
+        Id: g=f05a0d453e63f12414c5492482c27f10
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Id: g=54ffe83a86527479369082fd930f1285
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Id: g=7dd228d03d06854ea0474cb47f861506
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=446de27b55bcb59e559e142be3d051bf
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: Dashboard_Logic
+        Id: g=81033e9c52d4d057cc048109a31aa29d
+        Type: NetLogic
+        Children:
+        - Name: V1
+          Id: g=48e070368cfdc520d19451da99c9095e
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=5128d7fba5c626fc387510d503946f9d
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Voltaje L1-N"
+            Children:
+            - Name: Mode
+              Id: g=c6f4aa7d04f555396e448ca045ca14dc
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: V2
+          Id: g=3841c4217eb2d93656f33740ab5575f0
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=60cbecafbf056bf128ecf21a06e43c11
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Voltaje L2-N"
+            Children:
+            - Name: Mode
+              Id: g=1d28bd0448e4a5b8228642418177fd74
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: V3
+          Id: g=4844c581894eac67b5622ae7eec0c42c
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=afdbc32ead60bc9ac83c8cca95201927
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Voltaje L3-N"
+            Children:
+            - Name: Mode
+              Id: g=fa3a46c522609fb2057dd88f9dcd3d71
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: I1
+          Id: g=4d54e3e1dd503ca9741e4896d47ca8f0
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=f9f60821364c501a8de5991f979a32cf
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Corriente L1"
+            Children:
+            - Name: Mode
+              Id: g=531721d0af7c624d1ec82bfb540aae2a
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: I2
+          Id: g=dc192637eec49471f11287167251c0df
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=e0d8d8ef364b0d8f2938d942c8fa9c23
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Corriente L2"
+            Children:
+            - Name: Mode
+              Id: g=b1c34d20bbfec328643b8f692fe0db16
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: I3
+          Id: g=44db59b4d4679fe746a9066edda1ab77
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=4a586d901f30ef9a74da726a30cedef7
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Corriente L3"
+            Children:
+            - Name: Mode
+              Id: g=69b9e59cd29c570713b61cd3f69cb4a3
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: W1
+          Id: g=e9250e70fd7de6bc8b73b705572841b3
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=824b48de1a25bd7b2a982ed376c37e5b
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Activa L1"
+            Children:
+            - Name: Mode
+              Id: g=1adf1ff29fb48ffdab6fb196ea3112f2
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: W2
+          Id: g=d27c7fad9fa9c817ecdc29da1f43e632
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=9485df3057c3a3b2b98f15cde2ec5992
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Activa L2"
+            Children:
+            - Name: Mode
+              Id: g=13948a043e5efe0ebe6e1bf73fc0d831
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: W3
+          Id: g=0a52208558ad10731afd5d7f6fa1c0ae
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=4a316e712ec4d8baae444d058174b140
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Activa L3"
+            Children:
+            - Name: Mode
+              Id: g=5255896ffcfff7d14d7aadd4a0aff99b
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: R1
+          Id: g=3d715710cf79c070090185fb967395ff
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=2ece95706cfc38bdeb7f0f63a049aeda
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Reactiva L1"
+            Children:
+            - Name: Mode
+              Id: g=a25b87d1a062f2b7ba86792b01a61976
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: R2
+          Id: g=1b26d8c3d9b3d5535d3d65d9a976987f
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=ff9487f6be8ed4f14e2ceeecc679eee9
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Reactiva L2"
+            Children:
+            - Name: Mode
+              Id: g=b4d6b46a87e3c9aa85d8db535b19ad9a
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: R3
+          Id: g=1bfaf3d36211eddf3b75b05aa87df312
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=04faff1f93e58ea0b3c4f88ace7d23f7
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Reactiva L3"
+            Children:
+            - Name: Mode
+              Id: g=c527ea5447016f6f085bcd6cdc879055
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: FP1
+          Id: g=4c27da292afbe6e81626153cafb8d258
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=8dc39135771ed4a5d8e5339c48e08cdc
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Factor de Potencia L1"
+            Children:
+            - Name: Mode
+              Id: g=526a2d478107d46777013b146c974d57
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: FP2
+          Id: g=6ce563142c16b8e976ef2e746c02cd66
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=8071e8caa9922823c7f4c06245886bd3
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Factor de Potencia L2"
+            Children:
+            - Name: Mode
+              Id: g=e3a713de6fdeb763e0d81e65aedce60d
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: FP3
+          Id: g=efeb83e164e7977eca1590b74c0f2ab5
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=a2b1b15c0ff554ebedbea9e287eb416b
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Factor de Potencia L3"
+            Children:
+            - Name: Mode
+              Id: g=5f7fcd8dc091aa694475ff4868f6be9d
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDVL1
+          Id: g=eae2e5a38ba4c4732fb497d0f1d58843
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=aaf09349b1c66389797fcf9711382d6c
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/THD Voltaje L1"
+            Children:
+            - Name: Mode
+              Id: g=dc67144341d9ffe571fb14c32ca037d9
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDVL2
+          Id: g=b9b62da00e7788cd1c4a51712b09a0dc
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=bf338879b32811514f40629a33d87e4c
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/THD Voltaje L2"
+            Children:
+            - Name: Mode
+              Id: g=6ea5ed5999e2f0f496e85aeacf112d1c
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDVL3
+          Id: g=6016cb02b077e124f0d96bd0246baa6a
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=88064c8795a8b63c37d81c58c6053d2a
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/THD Voltaje L3"
+            Children:
+            - Name: Mode
+              Id: g=915afde414caa8afe1de950ba58c095f
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDIL1
+          Id: g=ebc61e8c0c5f239297982349454abc20
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=979952fb182522073a437af53199db72
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/THD Corriente L1"
+            Children:
+            - Name: Mode
+              Id: g=e6d10efbbb9a3e0f3a2986e3ef3a5e00
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDIL2
+          Id: g=d3becb2bf1792dc62b881f069af05510
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=4f82f4fb63fa285c1c3c33f00f5f5c5c
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/THD Corriente L2"
+            Children:
+            - Name: Mode
+              Id: g=5966062a724bdeaceec4a06fb14ede84
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDIL3
+          Id: g=89f187dc3d0162f1ea55ababfaa3590d
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=40b24a62ec867b2c40afc78f881b4e2d
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/THD Corriente L3"
+            Children:
+            - Name: Mode
+              Id: g=70e83083332e6bb38d531419fc873cf4
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H1_L1
+          Id: g=cb7f81eb63beaf08008ddc9ef04d8c45
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=dcca6dd184a2476b94b3855161d5075f
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico Fundamenta L1"
+            Children:
+            - Name: Mode
+              Id: g=6ac08d08b86d9f40b4ed1da9c94a7574
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H3_L1
+          Id: g=e090b2103faa2a938cb794cb97f0c19b
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=2416ac363df4590b5d743b50cfd04d5d
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 3 L1"
+            Children:
+            - Name: Mode
+              Id: g=959c6092d48952f4ae7560c1053d4e90
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H5_L1
+          Id: g=9c6df1ac8282d276173c2c5245dd2dc8
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=7fe53ea287c373c60eaa3f4827e0aceb
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 5 L1"
+            Children:
+            - Name: Mode
+              Id: g=cd9cb87dbf219f04782972b379e854d4
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H7_L1
+          Id: g=c7cfa9c600e2da3db5450b7b4522647e
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=10eb645f64c1ab999e5d0bcdbac9eef3
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 7 L1"
+            Children:
+            - Name: Mode
+              Id: g=738d34680d355306881326a29c61acd5
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H9_L1
+          Id: g=c5b6df633335a167086c15cc1d82980e
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=dc8e8ed0d7e37e5ddf54f053d51017c4
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 9 L1"
+            Children:
+            - Name: Mode
+              Id: g=6630dfbad3f76635b6b5cb6a33ebf0fd
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H1_L2
+          Id: g=728c974c12ee2125aabf88a489fa7433
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=b40e4cd6cb3d6872f279c687fba280ba
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico Fundamenta L2"
+            Children:
+            - Name: Mode
+              Id: g=ec133aa20f612a36e959d6d8b5f51953
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H3_L2
+          Id: g=3353118bcd9e864483e00bd9f4f67ae0
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=07e7d446462da9ac233b05924412e883
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 3 L2"
+            Children:
+            - Name: Mode
+              Id: g=de0a51b7e4d1675d3e14a87fa61c2996
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H5_L2
+          Id: g=6bbefadcb4d7e571ff92a1966ce2f54b
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=6795eb1f4dd10d0bba3448bba168b42f
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 5 L2"
+            Children:
+            - Name: Mode
+              Id: g=ae308f2c016957a7245ea5c0607d58da
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H7_L2
+          Id: g=3c38f4fde23b866b5670459a9354a603
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=7a913279a6c7b797a3d512e64a60fbb1
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 7 L2"
+            Children:
+            - Name: Mode
+              Id: g=58fae39694343b4724f93c51b23a3008
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H9_L2
+          Id: g=1de89c4b2fe934c197e8cdab2d2935d3
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=8b34d99f6bb6964a021a8edba545cd58
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 9 L2"
+            Children:
+            - Name: Mode
+              Id: g=4c2a9665b7207c186b4ee98bff3e2d05
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H1_L3
+          Id: g=9b82b4ff2c0d987ee78524ed1c8fd844
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=b0726d2da24af8999aa124e0a21b922f
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico Fundamenta L3"
+            Children:
+            - Name: Mode
+              Id: g=f5200782034f8f23a52fc8ffebb4fd0f
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H3_L3
+          Id: g=0efb56664f0908884b27515b573be29b
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=0164b5e39344f85635d86b3eac95aa25
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 3 L3"
+            Children:
+            - Name: Mode
+              Id: g=b915eead22c64ef18ccc707a1f6bb9f5
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H5_L3
+          Id: g=53f543847e9c22b60b047d34bad07671
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=858ceb2778184afe194be9506d9d56e2
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 5 L3"
+            Children:
+            - Name: Mode
+              Id: g=641dc8d6d799c921935bad42e1e3be93
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H7_L3
+          Id: g=43f3113957e1283cd3bb887fbeed9c62
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=9c579baf031f5e3c01f0ad848bba29aa
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 7 L3"
+            Children:
+            - Name: Mode
+              Id: g=b5246b56a7c58619112471babb690476
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: H9_L3
+          Id: g=5b873471e251929f1d48ff029477b4ac
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=ce4a86d254285e4cf57e7d8165f738a0
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Armonico 9 L3"
+            Children:
+            - Name: Mode
+              Id: g=ce81587cc3464e087308b80e5cd1ab64
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: VoltajeProm
+          Id: g=0f9372fcca461570aa36525e52aa182e
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=51c293749e741a31ea2f35ce52bb418a
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=77f7180f1b7ded82829c4138b7b1fa0e
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "( {0} + {#V2} + {#V3} ) / 3"
+            - Name: ns=5;Source0
+              Id: g=c2037e780f3565c0f4b874816562520c
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=dc4458b419d34dd81c964e59656de239
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Voltaje L1-L2"
+            - Name: ns=5;SourceV2
+              Id: g=8decaaa8ab3de59de138d851f2fbb623
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=b27cb3f412413d40658e7941ab3f34b0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Voltaje L2-L3"
+            - Name: ns=5;SourceV3
+              Id: g=fb5b4e102ece695717ad961dbf979379
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=abefcfd2b1394af322ad26f75fbdef30
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Voltaje L3-L1"
+        - Name: CorrienteTotal
+          Id: g=93b8d45ed6d6a25bb1cf373768a727ef
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=ec3283c71a5248aca533e40aa98acc09
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=948c84587701e594b6c7ce79c2933283
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0} + {#C2} + {#C3}"
+            - Name: ns=5;Source0
+              Id: g=ebd64a5827dc6d40a14856afa1bcd08b
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=9600e66c672dc5f12f01cbcd2400f16d
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Corriente L1"
+            - Name: ns=5;SourceC2
+              Id: g=266db67a0053404d9f3f80754ce8108a
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=4feb9a3be2c3bf31b403fdca58333755
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Corriente L2"
+            - Name: ns=5;SourceC3
+              Id: g=771276a06a725f23f75f84dc92bbddae
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=e92fceb95fc90c135f61748affd6239f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Corriente L3"
+        - Name: PotenciaActiva
+          Id: g=e6695a615523b648a0ec48d5c3415284
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=9a86c0d5ab8d8cf8d275a37c3ef3cc47
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Activa III"
+            Children:
+            - Name: Mode
+              Id: g=e1937de1dd892d9d0ebc534f36f0cb8d
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: FactorPotencia
+          Id: g=6a96e90e184e4948efcaaa55793ba0bd
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=62c515b66ec6b412b94b79e14a7711dd
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Factor de Potencia III"
+            Children:
+            - Name: Mode
+              Id: g=4fb947a13321c5c3bfa7e7077681a8ee
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: THDVoltaje
+          Id: g=e5c68d645466968b786a050b08c9b484
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=998c602d198ab34def9196435d495f19
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=40add0f4456d775562d391c6e7c5caf9
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "max ({0} , {#THDV2}, {#THDV3} )"
+            - Name: ns=5;Source0
+              Id: g=068c2a8c5cc4e01dc80b635cdb714b1c
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=28e78500e4b1bed9b1d0f370513108cf
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/THD Voltaje L1"
+            - Name: ns=5;SourceTHDV2
+              Id: g=2bbeaea7af0ac56326051ff5f54181d1
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=7a26bbf28d354a2fdd3a827227126f8c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/THD Voltaje L2"
+            - Name: ns=5;SourceTHDV3
+              Id: g=22efe3dcc0df5a00d30ace4a42181c12
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=f95f93cbdbb92b0665a118985f131fbc
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/THD Voltaje L3"
+        - Name: Frecuencia
+          Id: g=9a1ecf5182dd85a01ae7536ae4f05682
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=9064e8cf998e7db721e1e3284690a36e
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Frecuencia"
+            Children:
+            - Name: Mode
+              Id: g=7e511d5ed8fb5d1c41e5bd7731060f63
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: DesbalanceV
+          Id: g=793d93e6ebda0f91c04508098ceccdc9
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=49577695d98052a52505f835a68ee6f8
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=787e4a6dd379ed2d3839fd8c7f45c62b
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "( ( max( abs( {#V1} - {0} ), abs( {#V2} - {0} ), abs( {#V3} - {0} ) ) ) / {0} ) * 100"
+            - Name: ns=5;Source0
+              Id: g=2bfc029b5af72640a646b8203e48445a
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Id: g=94f98992afe0ff6476dfbb82c2dc025c
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Id: g=78972c52d258e3d77817ea743e0e4f83
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "avg( {0}, {#V2}, {#V3})"
+                - Name: ns=5;Source0
+                  Id: g=3c31896c54f1f82b34ffa156abc47966
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=889d2453eca4b4cc5da2e769266a69f3
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Estacion}/Voltaje L1-N"
+                - Name: ns=5;SourceV2
+                  Id: g=be8f0cce25f65ea478d42c676e9a93ff
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=5c020a546b2f34c52371c9462125fe72
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Estacion}/Voltaje L2-N"
+                - Name: ns=5;SourceV3
+                  Id: g=abf83c0ae349db0b2c431baf3fef7391
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=489dfb832e2676e0e0fbdb62626ced82
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Estacion}/Voltaje L3-N"
+            - Name: ns=5;SourceV2
+              Id: g=cd5982463eb59cfab17d62dcca35be46
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=55bf536b1b5b54f9b966bc6d233e69e1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Voltaje L2-N"
+            - Name: ns=5;SourceV1
+              Id: g=5a29f7cb2250d5fd26caa6ec65060d67
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=f586cdec0b2bb276309a0582ec2f1166
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Voltaje L1-N"
+            - Name: ns=5;SourceV3
+              Id: g=6fd8d51f38c61581174d0ee4431d63ea
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=4738201fa35f07a105eeaafe9e78ac3c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Voltaje L3-N"
+        - Name: kVAAparente
+          Id: g=bc7a614d6b2b31cef6aa49c3ee7870e0
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=30127cfd444933d6fcae7fc7ec7989d5
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Potencia Aparente III"
+            Children:
+            - Name: Mode
+              Id: g=ac4e7cd13eb6ab4545facbdc363e71d2
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: DesbalanceI
+          Id: g=ebb77086459caf2bfc424d4c5f031782
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=bd909111eb9c1478527dfc0110cb683e
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=9a5e99063c7c769d5c842c93eef5d291
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "( ( max( abs( {#C1} - {0} ), abs( {#C2} - {0} ), abs( {#C3} - {0} ) ) ) / {0} ) * 100"
+            - Name: ns=5;Source0
+              Id: g=e20f5d74ef63fa1847726b82b04e0724
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Id: g=d1f3e532c55357a7117ce9a9e5cae9f3
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Id: g=d900107198d4a0ccc0ddf238c0bf480f
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "avg( {0}, {#C2}, {#C3})"
+                - Name: ns=5;Source0
+                  Id: g=7452c87d232a552942ccc1f26d7df1cb
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=f7231b3306e8aab171cbebb9c9b7a284
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Estacion}/Corriente L1"
+                - Name: ns=5;SourceC2
+                  Id: g=5536886bece793da41341e7e6450451e
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=29287bbce4f0c656b80052c5c6bfa267
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Estacion}/Corriente L2"
+                - Name: ns=5;SourceC3
+                  Id: g=9b5292fdf470ada03335d60a8621968e
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Id: g=44392c4ff945cff9ff61c6394a1efdd1
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{Estacion}/Corriente L3"
+            - Name: ns=5;SourceC1
+              Id: g=b19101bbd6c7e4a1bd608e37902ab34a
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=9c1ef1ada3dfe65a9b062becf1e81248
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Corriente L1"
+            - Name: ns=5;SourceC2
+              Id: g=0bf5a172c1e69d6712197e085368352a
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=eda75c4b710e4a4c1e3d26dff13e8b18
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Corriente L2"
+            - Name: ns=5;SourceC3
+              Id: g=918818d4f5e5f263e7ecfd03a3b13b6f
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=eec7789c25119a301f057c98c4cb76d9
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Corriente L3"
+        - Name: kVAR
+          Id: g=7647229426edb32d92e997b939eb7c2a
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=937e82250ab590c160e7bb4a1a273ea7
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=2362ffd1dde2b1a91b596bb7f23837d8
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0} - {#PotRCap}"
+            - Name: ns=5;Source0
+              Id: g=ce4742ea22e6809873372f96f2841acb
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=66e07fdf2c5a61c424ceab6f6ab20831
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Potencia Reactiva Inductiva III"
+            - Name: ns=5;SourcePotRCap
+              Id: g=6c8799cd95551dc60bdce2e0e15af513
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=b592401ca5c41816fc18887e0fc39400
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Potencia Reactiva Capacitiva III"
+        - Name: EnergiaKWH
+          Id: g=6fa3176f473ff8eac745b9181f2175cd
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=8e2bd360c701f84bf994720d184a88f4
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Energia Activa Importada Total"
+            Children:
+            - Name: Mode
+              Id: g=ba3a41267b62cceed3c0b83b0c2d5af9
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: CostoEnergia
+          Id: g=2e104b50b81a596f96be53f2ebd1810a
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 13.0
+          Children:
+          - Name: ExpressionEvaluator1
+            Id: g=34ebc6c37f0d569ef3bbe4023f1b2021
+            Type: ExpressionEvaluator
+            Children:
+            - Name: Expression
+              Id: g=49e339c4d2e371a75e95c5a5f9eb4e4b
+              Type: BaseDataVariableType
+              DataType: String
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: "{0} * 3.19"
+            - Name: ns=5;Source0
+              Id: g=50dd7afacc0508b3fc4e7439b6bbf8ef
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Id: g=5f84648835a8b761188f957875211f83
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}/Energia Activa Importada Total"
+        - Name: DemandaMax
+          Id: g=9c725a0c92235ff51c8eeb82a5d018b6
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=7b25c28c1d5885d22ff46f8f18a03b3e
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Demanda Potencia Activa"
+            Children:
+            - Name: Mode
+              Id: g=3a928a4dbda100c010d85ddca1f017c9
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: EmisionesCO2
+          Id: g=28e39091feb0434d867e684611c39f75
+          Type: BaseDataVariableType
+          DataType: Float
+          Children:
+          - Name: DynamicLink
+            Id: g=17037f70b5f510ec050320a0a144e5ed
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Estacion}/Emisiones de la Energia Importada"
+            Children:
+            - Name: Mode
+              Id: g=418f660721f498bd0a66f5d5786d4564
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Estado1
+          Id: g=ddad8fd534ebb61a57ef8606e084cb48
+          Type: BaseDataVariableType
+          DataType: Boolean
+        - Name: Estado2
+          Id: g=822394793be83e43078cae925e6031eb
+          Type: BaseDataVariableType
+          DataType: Boolean
+  - Name: Estacion
+    Id: g=a22ad5f5b02a0706abe1dd4eff5f9f23
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=75500825640d88c655c96960ffbc9769
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Presentacion_Energy/Model/Main"
+  - Name: Alarmas
+    Id: g=f3c21f0addb5e86a425a82556ee3b119
+    Type: MomentaryButton
+    Children:
+    - Name: Active
+      Id: g=ccc0798c69ee0a07b2c1c15df7990605
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+    - Name: Text
+      Id: g=7ae8779d61efa3def9ca44a05260cadb
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"MomentaryButton1"}
+    - Name: Width
+      Id: g=1f8cf41d213a1add64e77a0f4a637322
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 250.0
+    - Name: Height
+      Id: g=b1ab6ada39eaa421727e5656fba21077
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+    - Name: HorizontalAlignment
+      Id: g=60c5cd2db6eb25e9ceebfa28a594bb0f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: MouseClickEventHandler1
+      Id: g=1145539d209d3c0fdd8b66d6b719b214
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=4c93fd62d216f5c3750cdc248061a398
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=8df8e8c722c7b99aab1d2c1c937bbe97
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=bc7fd3177c169bbfa36cfde837f45cde
+          Type: BaseObjectType
+          Children:
+          - Name: ns=5;ObjectPointer
+            Id: g=313bc5a6c340e07e23868621d4a6a79e
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Id: g=4dfcc40ccf6d40a6fd7233c25fd6f1ff
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=5;Method
+            Id: g=5e5e95c9695b23f63b9bb9de08bf49b1
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Id: g=80214f17ec7642d0ad3e3199859617f9
+            Type: BaseObjectType
+            Children:
+            - Name: Dialog
+              Id: g=b5b8bb9cb9c2386d13ded56f9bc97075
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":7,"TextId":"OpenDialogDialogDescription"}
+              Value: "/Objects/Presentacion_Energy/UI/Elementos/RegisterPop_UP"
+            - Name: AliasNode
+              Id: g=0520510523c77b7cf690a355d93d41f3
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":7,"TextId":"OpenDialogAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
+              Children:
+              - Name: DynamicLink
+                Id: g=29319b87854d61288abef70acc2cacb3
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Estacion}@NodeId"
+            - Name: ParentItem
+              Id: g=13cbc5132a7a11257dbde4daa4815c25
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":7,"TextId":"OpenDialogParentItemDescription"}
+              Children:
+              - Name: DynamicLink
+                Id: g=2e70146e6fd3cdb10a3721fa7b5f727c
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../..@NodeId"
+          - Name: OutputArguments
+            Id: g=8d44b76695bce605977a1b21e9859296
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Id: g=cb0ad886f23c9722093ffafc730e1333
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":7,"TextId":"OpenDialogDialogNodeIdDescription"}
+      - Name: EventArguments
+        Id: g=18c717f9e9c3f252e8e00797fd62ff35
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=4d355af848a62bd9f7689ed26a8f67bf
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=25897b0727a3f5f72ee8edbb6325d66a
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=04dc8d353a6d84289df6329d27199d1b
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=effa6ecec4140b68015483300b95ab52
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=a13516c249a1cfd9cf9d435c80a5787d
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=f35f8c23d9cc6b8326247e64cca5709c
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=a032a3d0c0bd09042b8f3b4be0584357
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=85481a01a51030ecec42544055f83a8e
+          Type: PropertyType
+          DataType: UInt16
+    - Name: MaxHoldTime
+      Id: g=d2d3929bb9a29088195cdc88556ca477
+      Type: BaseDataVariableType
+      DataType: Duration
+      ModellingRule: Optional
+      Value: "0:00:00:00.3000000"
+    - Name: Opacity
+      Id: g=548ede69ede86813123a5ea05b0633e3
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+- Name: Config
+  Id: g=320728ffcefe4ac4a812ecf7f628ae36
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: ScaleLayout
+    Id: g=ce21546c7a218638781e8a77de75d808
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Id: g=70d34e959089bd279192b1755f25b071
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1920.0
+    - Name: OriginalHeight
+      Id: g=57e977cc15984bbcc36464ad19d39554
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1080.0
+    - Name: Image1
+      Id: g=fba4577e6a5a91d9cfd4ad13399e841a
+      Type: Image
+      Children:
+      - Name: Path
+        Id: g=69d4d8e86484b258eb79c9acc1e6b8ca
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=18;%PROJECTDIR%/Back Analytics - Copy.jpg"
+      - Name: Width
+        Id: g=b94c962f4e66deeeb1f8503c5d64dafb
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 2400.0
+      - Name: Height
+        Id: g=8c0fc2317a54881d4b29e27230cab24e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1760.0
+      - Name: HorizontalAlignment
+        Id: g=ff16a2008a5d84bef11727a1a5e3f353
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=ca7657442cc39577f9a46cf22c2708f1
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: RightMargin
+        Id: g=50a9cd34e69caeba7213a4fafa048e37
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: BottomMargin
+        Id: g=49041485006458aebf3f6decca3c143d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: LeftMargin
+        Id: g=4cca5f77707bfdc475e9d2a8c847ce2f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -600.0
+      - Name: TopMargin
+        Id: g=d66eaf2ee2ab402922fccd282fdc9c7f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Opacity
+        Id: g=a0cfd13f7528b4123146560d0303c5eb
+        Type: BaseVariableType
+        DataType: Float
+        ModellingRule: Optional
+        Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=58c5cae19b93eaacb37bd6d87108ef41
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=f5e5a06373cbfb4eb5d8ac04fb1e6cd3
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Label_Estacion_1
+      Id: g=a718c8225129156025f6694065ed19f2
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=c4c71b5d9dc220797a2126509341d2be
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Control de Potencia Estación 1"}
+      - Name: FontSize
+        Id: g=6452482a979b43bc855accd66ea29174
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: FontWeight
+        Id: g=0338a6c3744a5807afd5716c603d298f
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Width
+        Id: g=572090a9d1969035266c1253de41a84c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: Height
+        Id: g=f3f72950322973d0838ea30539294952
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Id: g=eb7c99a28b5dffbf626d2c5cb9b483a1
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=9e6982609bb8165a905b2bd6c5f6e01d
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=09908753b07b07243cc0e7e11f1d1157
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 270.0
+      - Name: HorizontalAlignment
+        Id: g=2cf9966fd267eaccf88bf8765c7f77a1
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextColor
+        Id: g=93792fb046d8330d2933c208d105ad7a
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: LeftMargin
+        Id: g=e321423ef1510eb479523dc00fc5b72c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1000.0
+      - Name: RightMargin
+        Id: g=68454f034a0844cbb88e41424772f5dc
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+    - Name: LinearGauge_Estacion_1
+      Id: g=91edcbecc9101a3774552c6a768c7f71
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=e2f20774115c3aeb5c2dc11ca9b87fe8
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: DynamicLink
+          Id: g=23d50c5812a907a93c3fbb7a1c050e86
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Presentacion_Energy/Model/Estacion_1/Generador_de_Datos/Control"
+          Children:
+          - Name: Mode
+            Id: g=fdad4c734cdee055121b285ae5c40d56
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Id: g=64c06a7015825521fd12439535a17b5b
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: -100.0
+      - Name: MaxValue
+        Id: g=72592d9f3d7308206c3229792ea1191f
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=94cc40149b8aad1ef0271aeda177e60b
+        Type: BaseObjectType
+      - Name: Width
+        Id: g=779d088e9630b9c30f6da5b711831f7c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 610.0
+      - Name: Height
+        Id: g=c36cf176163f1c91dfa1d4bcd8320089
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: Orientation
+        Id: g=c4a62aed3abe42475e44b48b98e6222b
+        Type: BaseDataVariableType
+        DataType: OrientationEnum
+        ModellingRule: Optional
+      - Name: ValueChangeBehaviour
+        Id: g=6c81183f9fd7ddfd3c1f441f7b2fdee0
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: LeftMargin
+        Id: g=6b34b9d59900b0e91acb3da459be68d7
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1000.0
+      - Name: TopMargin
+        Id: g=de1e88f9c62d01a662ba4bf7f476e4ad
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 335.0
+      - Name: ModifiedValueHandler1
+        Id: g=ac9d6300519259b5bcceb4fe8103f76e
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=e922366b548faef7f366a1e93e49fd4f
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
+        - Name: MethodsToCall
+          Id: g=7443e5a93f136b950daf7f5edc36814c
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=312adc837212072c442d0fc3c4d28644
+            Type: BaseObjectType
+            Children:
+            - Name: ns=5;ObjectPointer
+              Id: g=2271cf823ad7c1378ffab39f816aa3b9
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Presentacion_Energy/Model/Estacion_1/Generador_de_Datos"
+              Children:
+              - Name: Kind
+                Id: g=6ddd1bae5a7406a0f591d209c0241b6b
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=5;Method
+              Id: g=fad070d8f68082d5446f2a2650538625
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "CambioControl"
+            - Name: InputArguments
+              Id: g=219eb0414634e08a90db5a10649532aa
+              Type: BaseObjectType
+              Children:
+              - Name: nuevoControl
+                Id: g=b8dd7835fa53c6101aaad9c17ce9b003
+                Type: BaseDataVariableType
+                DataType: Int32
+                Children:
+                - Name: DynamicLink
+                  Id: g=e06db0aa3713922f4c5fc92ca60f6b89
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Value"
+        - Name: EventArguments
+          Id: g=462de7a9eb9996c3589fe69a1d101bf4
+          Type: UserValueChanged
+          Children:
+          - Name: NewValue
+            Id: g=61e66caae317f6acfff00b184712b92f
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+          - Name: EventId
+            Id: g=69e1f4a7e52b5f1442d43610c747cf53
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=051d0854e9a6a0c32a5f75da907c46ae
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=26293a9ac0e20638ac36d7da4f9952f8
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=f349e7bed5cadb8a6a5f528ae705aebd
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=51d8abb41067dba8dae6eea0d9da4add
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=0137ebdfb260744d52964bb4f11b40d1
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=bbcbd375f2d6b9393f0815e898558795
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=5f0f9b7288fe75f9a003d849525dcb35
+            Type: PropertyType
+            DataType: UInt16
+      - Name: HorizontalAlignment
+        Id: g=e36801ca63e15cddf63c8b85db165f4e
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+    - Name: Label_Estacion_2
+      Id: g=e7551afae15235224079422bbfc64e73
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=419334f99aa0790b7252b3114d300644
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Control de Potencia Estación 2"}
+      - Name: FontSize
+        Id: g=41db892c89f6dafa3f04c5446675fc71
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: FontWeight
+        Id: g=c832a1697a06eb289ec8b91f5b70173c
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Width
+        Id: g=cfc587f776d8bbba803facff2dcd68c2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: Height
+        Id: g=1c19effc24a9a87c0f079df1ce487b65
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Id: g=e05b7bb52a9ee63c9642571994ee970f
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=8147828e340885bbb9cd79fbdc573400
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=d0f888b44c7d5fe78f38a4caaac69a21
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 270.0
+      - Name: HorizontalAlignment
+        Id: g=94f064dc417c45ed81fa6cdef4e0009f
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextColor
+        Id: g=78d42adefbd0df0e1f2a78f37c7e3bef
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: LeftMargin
+        Id: g=09e9ee8af4ff50258ec26ea85dd08c6a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1000.0
+      - Name: RightMargin
+        Id: g=7e424135bf7dba7aee31c136d50c8c57
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+    - Name: LinearGauge_Estacion_2
+      Id: g=391746820a3c6acb246956ab99e1c4ca
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=4ec15e0dcddd871a7643aea4736533b2
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: DynamicLink
+          Id: g=c280b68b1410f90eff99ab53fd81f754
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Presentacion_Energy/Model/Estacion_2/Generador_de_Datos/Control"
+          Children:
+          - Name: Mode
+            Id: g=baa5c6d3e2e3d71cbe9792f4f2ac383c
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Id: g=964dea8ef1ae53cfd10a2da84926e009
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: -100.0
+      - Name: MaxValue
+        Id: g=7042df5d8999c8e2e50b8f2769281a16
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=d445e496b4bbdd96f46ab34dc0f22eb8
+        Type: BaseObjectType
+      - Name: Width
+        Id: g=d577fb4e427be471581c526e9c70d7ac
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 610.0
+      - Name: Height
+        Id: g=ff21af6526abc4e99136e0c7c7db0be2
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: Orientation
+        Id: g=150ab08e07e54b734039da7088c0daac
+        Type: BaseDataVariableType
+        DataType: OrientationEnum
+        ModellingRule: Optional
+      - Name: ValueChangeBehaviour
+        Id: g=64fa7b520e643c5136978a6f435dabaf
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: LeftMargin
+        Id: g=bde2b8f82b2098d9b85e840278b31f53
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1000.0
+      - Name: TopMargin
+        Id: g=cc1022e0e58317af6b013b1bd346f415
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 335.0
+      - Name: ModifiedValueHandler1
+        Id: g=5fec0051cac9920c8007a5db92d7de61
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=b2633672f0d5973ae2013d8385578211
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
+        - Name: MethodsToCall
+          Id: g=31a81baa926b800d378de68e7231ca9d
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=bb593145e7dcad8a7fa7381aeec6616d
+            Type: BaseObjectType
+            Children:
+            - Name: ns=5;ObjectPointer
+              Id: g=fa2e8b44403cb2e0daa87bb61ff32b91
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Presentacion_Energy/Model/Estacion_2/Generador_de_Datos"
+              Children:
+              - Name: Kind
+                Id: g=02b697eb880acd3946f9c5aeb2a62735
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=5;Method
+              Id: g=73d95e89c6089512d15863ded52bcb05
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "CambioControl"
+            - Name: InputArguments
+              Id: g=6be399bf849396f899e79d1c15e92bff
+              Type: BaseObjectType
+              Children:
+              - Name: nuevoControl
+                Id: g=016e0f884972bd44a9eb80c71f7c3b3d
+                Type: BaseDataVariableType
+                DataType: Int32
+                Children:
+                - Name: DynamicLink
+                  Id: g=a66c63ff42479e322b095e805f4306fc
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Value"
+        - Name: EventArguments
+          Id: g=088491bf0e04e851b7265896faf2d969
+          Type: UserValueChanged
+          Children:
+          - Name: NewValue
+            Id: g=079fd3b56abc8defc7d3e9381c68263b
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+          - Name: EventId
+            Id: g=fd2c1272811be1d17a6d04d40069d194
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=d4eb333a3f609df4e2b2d3698ba64f3b
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=fb671e68f385793cd46a9111ace95ffc
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=a54dae64e0599e108dfcc3225f7d1d9b
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=9466fa160582b58a0b6c9fa9db4767da
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=0545c4d3da101f6dcf5ec7833930c390
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=57fc266f0fb7ec0c1d8dfcaa772a3ecb
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=20f582377e5ae9dd14599b707d56383a
+            Type: PropertyType
+            DataType: UInt16
+      - Name: HorizontalAlignment
+        Id: g=90f80ff6a5d92a85d8e3baa350d6776b
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+    - Name: Label_Estacion_3
+      Id: g=c8e77563a23a4e558ba1be472f3d5b3b
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=6ee88080651ed5886e88333e2a919987
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Control de Potencia Estación 3"}
+      - Name: FontSize
+        Id: g=86ae4a1840999da77886bd41171f4f18
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: FontWeight
+        Id: g=1afc5c41b4b435da5acfd15015ae329b
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Width
+        Id: g=e572ec0c38e190ea717f093b5de61b15
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: Height
+        Id: g=0aec4418ef39db35152f6213acf2558a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Id: g=15f1af0e5ec76c633ef6ea72d710834d
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=a7389d11eaaf100cec0a49b90abfc076
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=2cc2921bb4990abd54859cf9365a182d
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 750.0
+      - Name: HorizontalAlignment
+        Id: g=ffe505933c9e4996d4b2520590044b0b
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextColor
+        Id: g=acdd2c3e65829e3de14f136df69ab8d6
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: LeftMargin
+        Id: g=34a466db96fc9a798036a0f3e3b972c0
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1000.0
+      - Name: RightMargin
+        Id: g=d0b6d21b8921fe1ffe71e4e1dac709ed
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Id: g=40aca5a4a3546b28b0d1a8eed220ae3c
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: BottomMargin
+        Id: g=47354ede7a7510112c69e17b1c30fa2f
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 335.0
+    - Name: LinearGauge_Estacion_3
+      Id: g=20f7b542af2182c3e741dd6eba2db9f7
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=bbc0b1005d903f93c9df50e5ed532f8c
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: DynamicLink
+          Id: g=d7c54e939c7ac6a9ca209ef5264b545e
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Presentacion_Energy/Model/Estacion_3/Generador_de_Datos/Control"
+          Children:
+          - Name: Mode
+            Id: g=07f7c938dcb1d44124338fe2805a0a37
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Id: g=9c40debb198670bab4caa07e6751c579
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: -100.0
+      - Name: MaxValue
+        Id: g=819c1aeb95a684efc921a6faba9f2402
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=20b0136c7f834d79ac55d7866e99765e
+        Type: BaseObjectType
+      - Name: Width
+        Id: g=ff7ef7ca43eb60885a8cc15dab9c88df
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 610.0
+      - Name: Height
+        Id: g=f47fddb505c0c22cca54380582cc4f30
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: Orientation
+        Id: g=20d4ebc3ba6c7938e237a59fac6d96c2
+        Type: BaseDataVariableType
+        DataType: OrientationEnum
+        ModellingRule: Optional
+      - Name: ValueChangeBehaviour
+        Id: g=c629c3d1aa977c3b986e2c89323c9321
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: LeftMargin
+        Id: g=f6e4ca9d919fb8997c3eeba53940edca
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1000.0
+      - Name: TopMargin
+        Id: g=0edc114b2df2dda773aed3bd45684fa1
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 815.0
+      - Name: ModifiedValueHandler1
+        Id: g=6dc150f85d625ba4868ad36464c1bee4
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=12629b3c1d6611a8693773925c3c5192
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
+        - Name: MethodsToCall
+          Id: g=4a345dffd16a1c45c3cde0de7024695c
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=a49e24a00a4de32938decd03906b8401
+            Type: BaseObjectType
+            Children:
+            - Name: ns=5;ObjectPointer
+              Id: g=0fcd360173c5d8bef6b9790ae9b9692f
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Presentacion_Energy/Model/Estacion_3/Generador_de_Datos"
+              Children:
+              - Name: Kind
+                Id: g=b6684f5d49530832fdc5d9229f8e8789
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=5;Method
+              Id: g=5e6ee6a0599bb18750c42be3e847cd8a
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "CambioControl"
+            - Name: InputArguments
+              Id: g=fed3dd21fcbbdc51f31de101f0ff4b36
+              Type: BaseObjectType
+              Children:
+              - Name: nuevoControl
+                Id: g=d9c97b2eb9a92e1639782cc22d6f6805
+                Type: BaseDataVariableType
+                DataType: Int32
+                Children:
+                - Name: DynamicLink
+                  Id: g=23f8dc899f68c5af5ebf8341bdbd6fcc
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Value"
+        - Name: EventArguments
+          Id: g=0dd76fd53607e7259ee3a54e37579a82
+          Type: UserValueChanged
+          Children:
+          - Name: NewValue
+            Id: g=e0627dbcf53bb7edb0bbffca1df6d76f
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+          - Name: EventId
+            Id: g=5845819b7f3ef6a50d426a9592010f8e
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=b2f1b14ef8c6b088d44be5608c1e8386
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=6f2dd5dbf8e52f88e2c005f6778ed629
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=4dc4584c36681a6f626c06697e1c4473
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=5d6bfb5e1f683e312321d3e43b717a73
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=e6fb4b8b1babfd370db5c2e4ddb13c44
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=d8c2c13cb268a0e447804dc97bbedda2
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=f9a5a1d652c96cc7db5aba7df82a42e9
+            Type: PropertyType
+            DataType: UInt16
+      - Name: HorizontalAlignment
+        Id: g=6f1fa3138528d770d833307e4e635f8b
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: VerticalAlignment
+        Id: g=d963bf443b2a127fe29dc23b09ee8b94
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: BottomMargin
+        Id: g=1c027757283bbea5dcf0458f288b9076
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 270.0
+    - Name: Label_Estacion_4
+      Id: g=b6062809a8070f7a3c268ababdfb9730
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=1e9115ba06827b75fa94a88c07fef3c9
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Control de Potencia Estación 4"}
+      - Name: FontSize
+        Id: g=e98352ad7e80ae9888aa7ee8f1d486e0
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: FontWeight
+        Id: g=1b034907b52247e3aa118be6a238cd57
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Width
+        Id: g=a3520b3e94f0ba2677f67c772a7835ac
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: Height
+        Id: g=fb2432bbf7c41d9b9eabb22be0a6e328
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Id: g=64ae4b8cb3e2d204ecc0438de6d7c712
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=4751824d82b2c9d635d63651c6dbebe6
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=2568e4ee17168628cafde1e4752292ba
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 779.0
+      - Name: HorizontalAlignment
+        Id: g=39a1a00a1c791979faca90402b839877
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextColor
+        Id: g=e7406bd382c670de551564535292e2f8
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: LeftMargin
+        Id: g=357a1be74b8864c126446e7b9b313afa
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1000.0
+      - Name: RightMargin
+        Id: g=bdd79afeb8d9db2171c47b59a9259d4e
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Id: g=e35d35e3c5535b338e998d0255d2008e
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: BottomMargin
+        Id: g=499a84a6a63d9f26b5bd7466c6c37e81
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 335.0
+    - Name: LinearGauge_Estacion_4
+      Id: g=d149b371eebc0ce41af4cf12f30681ba
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=27c9f132eed5f0b09814acb798da3402
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: DynamicLink
+          Id: g=e3c0ea387b0f5be580b9b7db8cb1b451
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Presentacion_Energy/Model/Estacion_4/Generador_de_Datos/Control"
+          Children:
+          - Name: Mode
+            Id: g=b30e96ae3de248c68159454277b1eb62
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Id: g=af68f37c732da92630d316e3469b0837
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: -100.0
+      - Name: MaxValue
+        Id: g=f6c9f5b350a1cf27fbcf9203cce3f75c
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=ec114f519d62c902a21125cc93760f17
+        Type: BaseObjectType
+      - Name: Width
+        Id: g=325d73aefb4aaf37cc4d2516ef80a88a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 610.0
+      - Name: Height
+        Id: g=204e735287d4088be470702c61b6dde5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: Orientation
+        Id: g=5f281762119da46ad1a1f7944c61926b
+        Type: BaseDataVariableType
+        DataType: OrientationEnum
+        ModellingRule: Optional
+      - Name: ValueChangeBehaviour
+        Id: g=2f1a912bbc7d3e72417fd19c19d4e791
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: LeftMargin
+        Id: g=c4bfaf2522c2d8466767fce1806e8f9b
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1000.0
+      - Name: TopMargin
+        Id: g=11648ab4f0bb5105361dd25508c260e5
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 844.0
+      - Name: ModifiedValueHandler1
+        Id: g=5ea0fa0ef28b7a499d9214203bfa0bf7
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=f19fc3eb422feeeab9f1f1a8635d09f2
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
+        - Name: MethodsToCall
+          Id: g=8a4777a61b9fa6543cbf20e48a2aa6ef
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=0fcc7ebc5f39a894ef202d431e9cc196
+            Type: BaseObjectType
+            Children:
+            - Name: ns=5;ObjectPointer
+              Id: g=bf04aa465aa579228f867a00db47f449
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Presentacion_Energy/Model/Estacion_4/Generador_de_Datos"
+              Children:
+              - Name: Kind
+                Id: g=70f905b090ee14a735be1e34f097a18b
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=5;Method
+              Id: g=00fb38b65d7ca55ca7cf821d7406d65c
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "CambioControl"
+            - Name: InputArguments
+              Id: g=f97220edc5d13413ffb1dc46d8105231
+              Type: BaseObjectType
+              Children:
+              - Name: nuevoControl
+                Id: g=4b5ea57c2b04d71d87991dc3d9d12719
+                Type: BaseDataVariableType
+                DataType: Int32
+                Children:
+                - Name: DynamicLink
+                  Id: g=cac6d013d1f5f9652542d0363900cd6d
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Value"
+        - Name: EventArguments
+          Id: g=43b068f9dbb2c0d6e0a589a650f743bd
+          Type: UserValueChanged
+          Children:
+          - Name: NewValue
+            Id: g=0ac832b884783670ec9565981fc4cc5f
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+          - Name: EventId
+            Id: g=3f132abad2ce406dc93f27e548760401
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=57ee1d4b0689063cf30dbfb319493a92
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=0ecf6b7ed779d75b04c6b48157ce4e75
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=6575223c5db6352653e26f27fd3d2e26
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=d9c213dff6992231e236526c9e05cbfb
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=2b6586b03c8830b713a5a69c20e95f03
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=e01fed91d4da13c3ecdfafe839badc64
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=6120189583448945a5f271be728f5090
+            Type: PropertyType
+            DataType: UInt16
+      - Name: HorizontalAlignment
+        Id: g=9fa96c4875e7fc4ca4f6795700f2b001
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: VerticalAlignment
+        Id: g=5050b90e84b1f453a7f38c88d3642663
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: BottomMargin
+        Id: g=80730b5cb1bde812aea69356c3486386
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 270.0
+    - Name: FillMode
+      Id: g=988909125e436aa7a8699b33e19df45e
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: FontScaling
+      Id: g=e4f3939087732eb7ecdf2522e56a9ebb
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Label_Estacion_Main
+      Id: g=f72c0cb32a02fa7c374d257088a0d5ce
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=250c5c093d062913d5a538b0ee01899c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Control de Potencia Estación Main"}
+      - Name: FontSize
+        Id: g=2eb0227fba86197e1214705767d85dfe
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: FontWeight
+        Id: g=20ea9b560e2bed80226139c4fb16acaf
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        ModellingRule: Optional
+        Value: 700
+      - Name: Width
+        Id: g=f579b314a552e0449dd84f749c215d1c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: Height
+        Id: g=e6a644ad0930a0f280cb5fab33b4ea0a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TextHorizontalAlignment
+        Id: g=29fe020a4eab4c8a27711756f9c41f36
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Id: g=c4f2a03376fc5019b211ed0e21df8aa1
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Id: g=f55e3a9458913b21e165ec71cb7da178
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: HorizontalAlignment
+        Id: g=ff5ff091cad4fc81561eeaf9a6b801e7
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: TextColor
+        Id: g=13e23789717f4c31f405e45c8ba27c1a
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
+      - Name: LeftMargin
+        Id: g=7c85d577bf8f97d8e89a5f24ba6b3f13
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: RightMargin
+        Id: g=fa7dca85571219645071df41748cb99a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Id: g=43b17b46e264689eb568b5ff168b572e
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: BottomMargin
+        Id: g=245de3cef4bc8c8174e233ee6f3230d9
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+    - Name: LinearGauge_Estacion_Main
+      Id: g=41bc3af181600f1ffc2b5c304afe6508
+      Type: LinearGauge
+      Children:
+      - Name: Value
+        Id: g=77a4129e05fd441a31a3b02b46896065
+        Type: BaseDataVariableType
+        DataType: Float
+        Children:
+        - Name: DynamicLink
+          Id: g=bfc617eaa49d5d03142e1ef66d063a88
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Presentacion_Energy/Model/Main/Generador_de_Datos/Control"
+          Children:
+          - Name: Mode
+            Id: g=827e2a7352c6e79a3ccbd862632f8616
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Id: g=c46b6f3d09e34a3991d2e56d077c0a9d
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: -100.0
+      - Name: MaxValue
+        Id: g=4d549e784c888c4b1ef575d6707f5a93
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Id: g=645144e0dddd646f0ca3819251ff87ce
+        Type: BaseObjectType
+      - Name: Width
+        Id: g=7031ae18cbad157533aed3de668a044a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 610.0
+      - Name: Height
+        Id: g=64e5b72cbc5b94f504bd53ae63e89aa3
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+      - Name: Orientation
+        Id: g=48d6c14a99054ab19812c4f246754a4c
+        Type: BaseDataVariableType
+        DataType: OrientationEnum
+        ModellingRule: Optional
+      - Name: ValueChangeBehaviour
+        Id: g=716ffbd0334d248e0809c1e3119248ad
+        Type: BaseDataVariableType
+        DataType: ValueChangeBehaviour
+        ModellingRule: Optional
+        Value: 1
+      - Name: LeftMargin
+        Id: g=8e39c01f4b5359ea857bb49c192756b6
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Id: g=d3ea4ee8f145f4ca4d6b68a7c90359be
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: ModifiedValueHandler1
+        Id: g=e40630c8e778fe375f7c928fceb5bf98
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Id: g=ed99d0cee0c99c0ed56fe8f859df1f9e
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
+        - Name: MethodsToCall
+          Id: g=f7d3ceea6a05ba30048a1970925e3270
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Id: g=2b268f186efdd11ba80877b0dd68032f
+            Type: BaseObjectType
+            Children:
+            - Name: ns=5;ObjectPointer
+              Id: g=3a241e83a50f2354c5beb54740b5c363
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Presentacion_Energy/Model/Main/Generador_de_Datos"
+              Children:
+              - Name: Kind
+                Id: g=87e815816ee3aef8c050dc323374516a
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: ns=5;Method
+              Id: g=190da18e1314153a0a3a677401221683
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "CambioControl"
+            - Name: InputArguments
+              Id: g=0a35b12bf936e9c36493625583d53aa2
+              Type: BaseObjectType
+              Children:
+              - Name: nuevoControl
+                Id: g=5932ab619f5c1dca04d431d2a7c794c1
+                Type: BaseDataVariableType
+                DataType: Int32
+                Children:
+                - Name: DynamicLink
+                  Id: g=0c0f862dc6931051e65490c7ac32737f
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Value@Value"
+        - Name: EventArguments
+          Id: g=1d3f118d3041420616a7b53147c60e33
+          Type: UserValueChanged
+          Children:
+          - Name: NewValue
+            Id: g=f003ba0705b2bd75c91d6f3a4c60aec7
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+          - Name: EventId
+            Id: g=a717275dba4b5249ef43491fa57818ff
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Id: g=539a3066680d296145fb5c40abe63afa
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Id: g=122566dce6d8685211d83f9d6f342496
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Id: g=49e75dc8dbc3bfc3bdb61a7061b7de45
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Id: g=2c6d44c124b63d45ffa16ccfba60b4d2
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Id: g=b8bd91d14af009891e84480efbb864ff
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Id: g=6959c6642316b672a9e58e3479f01b58
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Id: g=d3a5455e37260f681ce3383de4fca0d9
+            Type: PropertyType
+            DataType: UInt16
+      - Name: HorizontalAlignment
+        Id: g=9a616055197863355feded1cf5e68550
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: RightMargin
+        Id: g=daff9552c87556bae52ca9add4c492fc
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Id: g=588c7c6834626b20c035a44dd7f9e6ca
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2

@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_2tcvr" x="0px" y="0px" width="151.041px" height="151.033px" viewBox="0 0 151.041 151.033" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="SVGID_17_" gradientUnits="userSpaceOnUse" x1="75.5205" y1="3.9492" x2="75.5205" y2="147.0938">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.2"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.15"/>
+  </linearGradient>
+  <path fill="url(#SVGID_17_)" d="M75.521,3.949c-39.53,0-71.57,32.038-71.57,71.567c0,39.528,32.04,71.577,71.57,71.577&#xD;&#xA;&#x9;&#x9;s71.57-32.049,71.57-71.577C147.091,35.987,115.051,3.949,75.521,3.949z M75.521,139.397c-35.285,0-63.874-28.598-63.874-63.881&#xD;&#xA;&#x9;&#x9;c0-35.284,28.589-63.872,63.874-63.872c35.284,0,63.874,28.588,63.874,63.872C139.395,110.8,110.805,139.397,75.521,139.397z"/>
+  <radialGradient id="SVGID_18_" cx="75.5195" cy="118.6035" r="47.4067" gradientUnits="userSpaceOnUse">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.45"/>
+    <stop offset="0.8587" style="stop-color:#000000;stop-opacity:0.45"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.45"/>
+  </radialGradient>
+  <path fill="url(#SVGID_18_)" d="M75.521,137.917c-29.433,0-54.119-20.382-60.688-47.803c0.049,16.627,6.795,31.676,17.668,42.607&#xD;&#xA;&#x9;&#x9;c11.971,9.029,26.872,14.372,43.021,14.372c16.147,0,31.05-5.343,43.021-14.372c10.873-10.932,17.618-25.98,17.667-42.607&#xD;&#xA;&#x9;&#x9;C129.639,117.535,104.962,137.917,75.521,137.917z"/>
+  <radialGradient id="SVGID_19_" cx="75.3281" cy="75.5215" r="62.6387" gradientUnits="userSpaceOnUse">
+    <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.05"/>
+    <stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0.15"/>
+  </radialGradient>
+  <path fill="url(#SVGID_19_)" d="M75.328,12.881c-34.594,0-62.637,28.039-62.637,62.636s28.043,62.646,62.637,62.646&#xD;&#xA;&#x9;&#x9;c34.596,0,62.637-28.049,62.637-62.646S109.924,12.881,75.328,12.881z"/>
+</svg>
