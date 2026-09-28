@@ -3,195 +3,147 @@ Id: g=670865bdc6bc7592980697660ba3d6d7
 Type: FolderType
 Children:
 - Name: 'Voltaje L1-N'
-  Id: g=5222a5dcbfa01f5cb740707ded5671bf
   Type: BaseDataVariableType
   DataType: Float
 - Name: Corriente L1
-  Id: g=ea4efd5dcd70ae48ae1b3e11245e4184
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Activa L1
-  Id: g=abefe68a4f712194b207afb28823bc09
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Reactiva L1
-  Id: g=50d282aae355df7f588a254b2ceaf5e9
   Type: BaseDataVariableType
   DataType: Float
 - Name: Factor de Potencia L1
-  Id: g=4aae976507d5a1808b35bd80a82ccd73
   Type: BaseDataVariableType
   DataType: Float
 - Name: THD Voltaje L1
-  Id: g=e3fa4091a0f4d1f675f954d6bc36b1e8
   Type: BaseDataVariableType
   DataType: Float
 - Name: THD Corriente L1
-  Id: g=d7ae8ce224d309d9b3e57587e82048d0
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico Fundamenta L1
-  Id: g=04d8ecb17a7df87c041a313d03030fbc
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 3 L1
-  Id: g=408e43a2072779c8d3a52715ab83ab0c
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 5 L1
-  Id: g=82e14cb6d306e6dbf85b8b8afe5d6c6e
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 7 L1
-  Id: g=fa4da375f0ed727cb419a4277c11b987
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 9 L1
-  Id: g=9fe837bae81db29d92a825b2964e4dc4
   Type: BaseDataVariableType
   DataType: Float
 - Name: 'Voltaje L2-N'
-  Id: g=8e88d2bb2f2edd0c4696a0f893918ac6
   Type: BaseDataVariableType
   DataType: Float
 - Name: Corriente L2
-  Id: g=149a4b759090c01c0b76cf1dfd877c07
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Activa L2
-  Id: g=5c4d63de477b1a89a7c26bf8988a7bf8
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Reactiva L2
-  Id: g=c399958dbccbfc7782212daf727f8364
   Type: BaseDataVariableType
   DataType: Float
 - Name: Factor de Potencia L2
-  Id: g=c0e229af3968a5e185a39fb420ce4199
   Type: BaseDataVariableType
   DataType: Float
 - Name: THD Voltaje L2
-  Id: g=efba5813715a596cb30223439742891d
   Type: BaseDataVariableType
   DataType: Float
 - Name: THD Corriente L2
-  Id: g=ba0b3235447662aa7a6bcb3b580a9036
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico Fundamenta L2
-  Id: g=91c648ffc8892fb1d1b40b639bdb8760
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 3 L2
-  Id: g=e53155626681df9c142deba68a13e8ab
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 5 L2
-  Id: g=331a61b3595896e0de12e58c8e6d0cc1
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 7 L2
-  Id: g=9e7ab1799932a61401985d954c44ab67
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 9 L2
-  Id: g=3dbc7de270457019a06e1761f7aeffdb
   Type: BaseDataVariableType
   DataType: Float
 - Name: 'Voltaje L3-N'
-  Id: g=f9c9bf65c1cec259234fb533ce2d7b62
   Type: BaseDataVariableType
   DataType: Float
 - Name: Corriente L3
-  Id: g=03aa5776e41ad257f9ec60dcbb81743f
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Activa L3
-  Id: g=0acf60d973c78a30610e7b88dba62aa4
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Reactiva L3
-  Id: g=06938f4efd80753dfa37810f925bc890
   Type: BaseDataVariableType
   DataType: Float
 - Name: Factor de Potencia L3
-  Id: g=1a0d74f95e07193d7edcf93f98ca26b0
   Type: BaseDataVariableType
   DataType: Float
 - Name: THD Voltaje L3
-  Id: g=d7e0f1f0b36065237bcd6977c5ae372f
   Type: BaseDataVariableType
   DataType: Float
 - Name: THD Corriente L3
-  Id: g=dbc66bebee36c590fe6c3f74803c8bed
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico Fundamenta L3
-  Id: g=a63795c99cdcd1f6dc9c62f401a994dd
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 3 L3
-  Id: g=1469730f2b5dbab81861ae38ce062572
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 5 L3
-  Id: g=ca3ce747eb9f05915b7deb0dcf8e5136
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 7 L3
-  Id: g=f10386d2a18594e8e08b91084198646a
   Type: BaseDataVariableType
   DataType: Float
 - Name: Armonico 9 L3
-  Id: g=c9203d2514c8952c3707fdbcb9e211e3
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Activa III
-  Id: g=59f77470ddd39887d66d0708b688b57d
   Type: BaseDataVariableType
   DataType: Float
 - Name: Factor de Potencia III
-  Id: g=523315b2e90675b9cec83e905b4336cb
   Type: BaseDataVariableType
   DataType: Float
 - Name: 'Voltaje L1-L2'
-  Id: g=c6a6d40424b9c501c86951899def3c6f
   Type: BaseDataVariableType
   DataType: Float
 - Name: 'Voltaje L2-L3'
-  Id: g=72a9e2097be464fd6a849b23d0ad323a
   Type: BaseDataVariableType
   DataType: Float
 - Name: 'Voltaje L3-L1'
-  Id: g=af273a6993fef73d4fb8bf6fc18a13ce
   Type: BaseDataVariableType
   DataType: Float
 - Name: Frecuencia
-  Id: g=dd42f2b4d8abf15d5c5e9378b9119fbb
   Type: BaseDataVariableType
   DataType: Float
 - Name: Energia Activa Importada Total
-  Id: g=51a4beca1fdd40e7173086f30a8ebc59
   Type: BaseDataVariableType
   DataType: Float
 - Name: Emisiones de la Energia Importada
-  Id: g=9854740a086b78dc1569905730b4eb8c
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Aparente III
-  Id: g=d4c13f00dbcd941a26e373630bb920e8
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Reactiva Inductiva III
-  Id: g=ea38f19331360ed5372a0c820b265607
   Type: BaseDataVariableType
   DataType: Float
 - Name: Potencia Reactiva Capacitiva III
-  Id: g=db05d7fe2d8640b6c9f3cb9b2c3688c3
   Type: BaseDataVariableType
   DataType: Float
 - Name: Demanda Potencia Activa
-  Id: g=ade5d47b6a2ed3c226e76885b0d4b699
   Type: BaseDataVariableType
   DataType: Float
 - Name: Generador_de_Datos
@@ -200,10 +152,8 @@ Children:
   Children:
   - Class: Method
     Name: CambioControl
-    Id: g=d2eae4b22411634f9297edb11986c149
     Children:
     - Name: ns=0;InputArguments
-      Id: g=d9c55aa2dc0f171677002576e7a9681c
       Type: BaseVariableType
       DataType: Argument
       ReferenceType: HasProperty
@@ -211,27 +161,21 @@ Children:
       ArrayDimensions: [0]
       Value: [{"TypeId":{"Id":296},"Body":{"Name":"nuevoControl","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
   - Name: Seed
-    Id: g=5e2ec62a96b050e3b276e1201b87b295
     Type: BaseDataVariableType
     DataType: Int32
     Value: 34657
   - Name: Control
-    Id: g=5631ccb17f41f9a8c4d7f696fb6d16d9
     Type: BaseDataVariableType
     DataType: Int32
 - Name: Alarma_1
-  Id: g=08724cfe7d73494f01bf3bf30f5aea23
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Alarma_2
-  Id: g=24af1925ab4fcce6388673cb90f3b9a5
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Alarma_3
-  Id: g=0e94489e8f5e4cb407dfafeec23fd41e
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: Alarma_4
-  Id: g=3a7a9c0f309d9e23791e1b205f06f3d0
   Type: BaseDataVariableType
   DataType: Boolean
